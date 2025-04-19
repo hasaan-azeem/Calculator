@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1614850715649-1d0106293bd1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.calculator-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #22222268;
+    margin-bottom: 15px;
+    border-radius: 20px 20px 0 0;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    text-align: right;
+    border-radius: 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font: 25px 'Courier New', Courier, monospace;
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+input::placeholder{
+    color: white;
+    font: 25px 'Courier New', Courier, monospace;
+    text-align: right;
+
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.equal{
+   color: black;
+}
+
+.operator{
+    color: black;
+}
